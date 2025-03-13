@@ -1,20 +1,11 @@
-body > header {
-    color: black;
-    font-style: normal;
-}
-article > header {
-    font-style: normal;
-}
-subtitle {
-    font-style: italic;
-}
+
 body{
     margin: 0;
     padding: 0;
     background: rgb(235, 235, 235);
 }
-nav{
-    background: rgb(46, 44, 44);
+nav ul{
+    background-color: rgb(46, 44, 44);
     text-align: center;
     list-style: none;
     padding: 0;
@@ -23,6 +14,7 @@ nav{
 nav ul li{
     font-size: 24px;
     line-height: 40px;
+    height: 40px;
     display: inline-block;
     padding: 20px;
 }
@@ -34,7 +26,17 @@ nav ul li a:hover{
     color: rgb(236, 22, 22);
     text-decoration: underline;
 }
-article header a:hover{
+article header:hover{
    color: green;
-   font-size: large;
+   font-size: large; 
+}
+body > header {
+    color: black;
+    font-style: normal;
+}
+article > header {
+    font-style: normal;
+}
+subtitle {
+    font-style: italic;
 }
