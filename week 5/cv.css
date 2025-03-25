@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: white;
+}
+nav ul {
+  background-color: rgb(46, 44, 44);
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  font-size: 24px;
+  line-height: 10px;
+  height: 10px;
+  display: inline-block;
+  padding: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+body > header {
+  color: rgb(8, 8, 58);
+  font-size: larger;
+  font-style: Calibri;
+  margin-left: 80px;
+}
+body > main {
+  margin-left: 80px;
+}
+body > div {
+  margin-left: 80px;
+}
