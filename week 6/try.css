@@ -1,0 +1,24 @@
+span {
+  background: dodgerblue;
+  color: #ffffff;
+}
+/* span id */
+span#top {
+  background: rgb(255, 30, 98);
+}
+/* span class */
+span.sky {
+  background: rgb(179, 23, 218);
+}
+.code {
+  background: rgb(196, 79, 11);
+  font-family: Consolas;
+}
+div.items a {
+  color: green;
+  font-weight: bold;
+}
+p + p {
+  font-style: italic;
+  font-weight: bold;
+}
