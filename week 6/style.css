@@ -1,3 +1,11 @@
-#second {
-  color: aliceblue;
+div #second {
+  color: red;
+  font-size: 20px;
+}
+li {
+  text-decoration: underline;
+}
+div p.special {
+  color: red;
+  text-decoration: underline;
 }

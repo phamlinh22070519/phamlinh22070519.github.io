@@ -1,0 +1,19 @@
+body {
+  font-size: 20px;
+  font-style: Comic Sans MS;
+}
+#first {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  width: 500px;
+}
+div {
+  background-color: yellow;
+  margin: 0px 0px 5px 5px;
+  width: 300px;
+}
+.second {
+  font-weight: bold;
+}
