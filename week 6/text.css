@@ -16,4 +16,12 @@ div {
 }
 .second {
   font-weight: bold;
+  color: red;
+  width: 400px;
+}
+#special {
+  background-color: black;
+  font-weight: none;
+  font: italic 30px "Times New Roman";
+  color: white;
 }
