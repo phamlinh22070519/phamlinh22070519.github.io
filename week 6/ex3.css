@@ -4,11 +4,13 @@
 .Product img {
   width: 150px;
   height: 150px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 10px #aaa;
+  border-radius: 20px; /*làm tròn góc<bo góc>*/
+  box-shadow: 5px 5px 10px #aaa; /*tạo bóng cho ảnh*/
+  /* box-shadow: <d(bóng theo chiều ngang)> <d(bóng theo chiều dọc)> <độ mờ của bóngbóng> <màu bóng>; */
 }
 .ProductName {
   font-weight: bold;
+  /* font-weight: kiểm soát độ dày của chữ <normal; lighter; bold; bolder; <số từ 100 đến 900>> */
 }
 .ProductPrice {
   font-style: italic;

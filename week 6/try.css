@@ -22,3 +22,9 @@ p + p {
   font-style: italic;
   font-weight: bold;
 }
+.ProductDetails {
+  display: none;
+}
+.Product:hover .ProductDetails {
+  display: block;
+}
