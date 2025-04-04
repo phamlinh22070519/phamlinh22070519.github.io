@@ -1,7 +1,80 @@
 body {
   width: 960px;
-  Center the body;
+  text-align: center;
   font-family: Arial, sans-serif;
-  text color: #fcfcfc;
-  
+  text-decoration-color: #fcfcfc;
+  background: #355664;
+}
+header {
+  font-family: forte, Arial, sans-serif;
+}
+h1 {
+  size: 50px;
+  padding: 10px 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  size: 40px;
+  letter-spacing: 15px;
+  text-align: center;
+  border-bottom: 3px solid #416371;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+h3 {
+  text-align: right;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+#paragraph {
+  line-height: 20px;
+  padding-bottom: 5px;
+  color: #94c258;
+}
+image {
+  width: 500px;
+  height: 300px;
+  border: none;
+}
+#article-content {
+  margin: 15px 0 0 0;
+}
+nav {
+  background: #355664;
+  padding: 0px 5px 0px 5px;
+}
+.hyperlinks {
+  color: #ffffff;
+  color: #7cb3e9;
+  color: #8ec45b;
+  margin: 5px 2px;
+  padding: 7px 10px 4px;
+  size: 30px;
+}
+article {
+  height: 390px;
+  background: #213e4a;
+  padding: 20px;
+  margin: 0 0 10px;
+}
+figure {
+  border: 3px solid #142830;
+  float: right;
+  height: 300px;
+  width: 500px;
+  margin-left: 15px;
+}
+footer {
+  border-top: 3px solid #142830;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  size: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
