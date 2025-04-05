@@ -2,7 +2,7 @@ body {
   width: 960px;
   text-align: center;
   font-family: Arial, sans-serif;
-  text-decoration-color: #fcfcfc;
+  color: #fcfcfc;
   background: #355664;
 }
 header {
@@ -28,7 +28,8 @@ h3 {
   font-weight: normal;
   margin: 0 0 10px 0;
 }
-#paragraph {
+.hyperlinks.Paragraph {
+  text-align: left;
   line-height: 20px;
   padding-bottom: 5px;
   color: #94c258;
@@ -45,7 +46,7 @@ nav {
   background: #355664;
   padding: 0px 5px 0px 5px;
 }
-.hyperlinks {
+nav#Hyperlinks ul li {
   color: #ffffff;
   color: #7cb3e9;
   color: #8ec45b;
@@ -54,10 +55,10 @@ nav {
   size: 30px;
 }
 article {
-  height: 390px;
+  height: 370px;
   background: #213e4a;
   padding: 20px;
-  margin: 0 0 10px;
+  margin: 0 0 5px;
 }
 figure {
   border: 3px solid #142830;
@@ -73,8 +74,11 @@ footer {
   text-align: center;
   size: 20px;
 }
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+
+nav#Hyperlinks li {
+  display: inline;
+  float: left;
+  padding: 0px 20px 0px 0px;
+  height: 50px;
+  font-weight: bold;
 }
