@@ -28,3 +28,9 @@ p + p {
 .Product:hover .ProductDetails {
   display: block;
 }
+body {
+  background-image: url("rose.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+}

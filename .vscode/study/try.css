@@ -1,0 +1,88 @@
+color: màu chữ
+font-size: cỡ chữ
+font-style: kiểu chữ
+font-family: phông chữ
+text-transform: Viết hoa/ viết thường,....
+text-align: căn dòng< căn giữa/căn trái/căn phải.....>
+background-color: màu nền
+Tạo ảnh nền bằng cách: vào css
+body {
+   background-image: url(link ảnh);
+}
+-----------------------------------------------------------------------
+opacity: quy định độ trong suốt      <chỉ làm mờ vẫn còn không gian lưu trữ, vẫn tương tác được>
+display: none -> Ẩn phần tử khỏi giao diện<xóa cả không gian nó đang chiếm>
+visibility: Ẩn hoặc hiện element
+visibility: hidden;     (ẩn, vẫn chiếm không gian nhưng không tương tác được nữa)
+visibility: visible;       (hiện)
+Thẻ <pre>: hiện nguyên cấu trúc đã viết trong file html
+-----------------------------------------------------------------------
+Table:
+"tr": hàng
+"td": ô
+"th": ô tiêu đề
+==================
+thead: phần đầu chứa các ô tiêu đề
+tbody: phần thân
+tfoot: tổng kết/....
+==================
+Colspan: chỉ định phần tử chiếm bao nhiêu cột
+Rowspan: chỉ định phần tử chiếm bao nhiêu hàng
+-----------------------------------------------------------------------
+CSS Colors: 
+"background-color: ....." : màu nền (<rgb(...,...,...): chỉnh màu>; <rgba(...,...,...,...): chỉnh màu+chỉnh mờ hoặc đậm>)
+"color: ...."                      : màu chữ
+"boder: ...px solid ....."     : màu border
+-----------------------------------------------------------------------
+CSS Background
+background-color
+background-image: url("...")
+background-repeat: lặp lại ảnh nền
+background-position: vị trí ảnh nền
+background-attachment: fixed/ scroll <chỉ định cố định hay cuộn>
+background-size
+-----------------------------------------------------------------------
+Borders:
+border-style
+border-width: 5px;
+border-width: 5px 2px;    /* 5px top and bottom, 2px on the sides */
+border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+border-width: medium;
+border-width: thick;
+border-color:
+border-top-style: dotted;
+border-radius: 5px;          /*bo góc*/
+/* margin: Lề được sử dụng để tạo khoảng trống xung quanh các thành phần, bên ngoài bất kỳ đường viền nào được xác định. */
+/* padding: Đệm được sử dụng để tạo khoảng trống bên trong các thành phần, bên trong bất kỳ đường viền nào được xác định. */
+text-align: justify;            /*text-align: căn trái/ căn phải/ căn giữa*/
+text-decoration: underline;   /*text-decoration: gạch chân/ gạch giữa/....*/
+text-transform: uppercase; /*text-transform: viết hoa/ viết thường/....*/
+text-indent: 50px;         /*text-indent: thụt đầu dòng*/
+text-shadow: 2px 2px 5px #000000; /*text-shadow: tạo bóng cho chữ*/
+letter-spacing: 5px; /*letter-spacing: khoảng cách giữa các chữ*/
+line-height: 1.5; /*line-height: khoảng cách giữa các dòng*/
+word-spacing: 10px; /*word-spacing: khoảng cách giữa các từ*/
+text-overflow: ellipsis;  /*<nếu chữ dài hơn ô thì sẽ hiện dấu "..." ở cuối> */
+white-space: nowrap; /*<không cho xuống dòng>*/
+font-style: italic;
+<i class="material-icons">cloud</i>
+a:link- một liên kết bình thường, chưa được truy cập
+a:visited- một liên kết người dùng đã truy cập
+a:hover- một liên kết khi người dùng di chuột qua nó
+a:active- một liên kết ngay khi nó được nhấp vào
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+list-style: square inside url("sqpurple.gif");
+tr:hover {background-color: coral;}
