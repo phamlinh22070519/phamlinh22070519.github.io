@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=formform, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="student_id">student_id</label>
+      <input type="text" name="student_id" id="student_id" />
+      <input type="button" onclick="check()" value="Check" />
+      <label for="class">Class</label>
+      <input type="radio" name="class" id="class" value="class1" />
+      <input
+        type="radio"
+        name="class"
+        id="class"
+        value="class2"
+        checked
+        required
+      />
+    </form>
+    <script>
+      function check() {
+        const student_IdInput = document.getElementById("student_id");
+        alert(student_IdInput.value);
+      }
+    </script>
+  </body>
+</html>
