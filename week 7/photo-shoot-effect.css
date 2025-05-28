@@ -1,66 +1,91 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,900";
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  width: 100%;
-  text-align: center;
   font-family: Arial, sans-serif;
   color: #fcfcfc;
-  background: #355664;
+  background-color: #355664;
+  width: 960px;
+  margin: 0 auto;
 }
-header {
+h1,
+h2,
+h3 {
   font-family: forte, Arial, sans-serif;
 }
-header > h1 {
+h1 {
   font-size: 50px;
   padding: 10px 0 0;
   text-align: center;
   text-transform: uppercase;
 }
-header > h2 {
-  font-family: forte, Arial, sans-serif;
+h2 {
   font-size: 40px;
   letter-spacing: 15px;
   text-align: center;
+  text-transform: uppercase;
   border-bottom: 3px solid #416371;
   padding-bottom: 20px;
-  text-transform: uppercase;
 }
 h3 {
-  width: 90%;
   text-align: right;
   font-size: 30px;
-  font-weight: lighter;
-  margin: 0 0 10px 0;
+  font-weight: normal;
+  margin: 0 0 10px;
 }
-.hyperlinks.Paragraph {
-  text-align: left;
+p {
   line-height: 20px;
   padding-bottom: 5px;
+}
+figure + p {
   color: #94c258;
 }
-image {
-  font-weight: 500px;
-  height: 300px;
+img {
   border: none;
+  width: 500px;
+  height: 300px;
 }
-#article-content {
-  margin: 15px 0 0 0;
+div.article-content {
+  margin: 15px 0;
 }
 nav {
   background: #355664;
-  padding: 0px 5px 0px 5px;
+  padding: 0 5px;
 }
-nav#Hyperlinks ul li {
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
   color: #ffffff;
-  color: #7cb3e9;
-  color: #8ec45b;
+  display: inline-block;
+  font-size: 30px;
   margin: 5px 2px;
   padding: 7px 10px 4px;
-  size: 30px;
+  text-transform: uppercase;
+}
+nav ul li:first-of-type > a {
+  color: #7cb3e9;
+  font-size: 30px;
+  text-transform: lowercase;
+}
+nav ul a[title="sweet tabs"] {
+  color: #8ec45b;
+  font-size: 30px;
+  text-transform: none;
+}
+nav,
+article,
+nav ul li a,
+figure {
+  border-radius: 10px;
 }
 article {
-  height: 370px;
-  background: #213e4a;
+  background-color: #213e4a;
+  margin: 0 0 10px;
   padding: 20px;
-  margin: 0 0 5px;
+  height: 390px;
 }
 figure {
   border: 3px solid #142830;
@@ -74,13 +99,5 @@ footer {
   padding-top: 15px;
   margin-bottom: 30px;
   text-align: center;
-  size: 20px;
-}
-
-nav#Hyperlinks li {
-  display: inline;
-  float: left;
-  padding: 0px 20px 0px 0px;
-  height: 50px;
-  font-weight: bold;
+  font-size: 20px;
 }
