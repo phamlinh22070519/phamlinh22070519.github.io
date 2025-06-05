@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bảng linh kiện máy tính</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Navigation -->
+    <header class="top-nav">
+      <div class="nav-container">
+        <nav class="main-nav">
+          <a href="#" class="nav-link">Trang chủ</a>
+          <a href="#" class="nav-link">Sách ©</a>
+          <a href="#" class="nav-link">Tác giả ™</a>
+          <a href="#" class="nav-link">Liên hệ</a>
+        </nav>
+      </div>
+    </header>
+      <button class="menu-toggle">Ẩn/hiện Menu</button>
+
+    <!-- Main Content -->
+    <main class="container">
+      <div class="content-wrapper">
+        <!-- Product Table Section -->
+        <section class="product-section">
+          <h1 class="page-title">Bảng linh kiện máy tính ©</h1>
+
+          <table class="product-table">
+            <thead>
+              <tr>
+                <th>Tên linh kiện</th>
+                <th>Giá (VNĐ)</th>
+                <th>Đánh giá ★</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>RAM DDR4 8GB</td>
+                <td>800000</td>
+                <td>4.0/5</td>
+              </tr>
+              <tr>
+                <td>Ổ cứng SSD 256GB</td>
+                <td>1200000</td>
+                <td>4.8/5</td>
+              </tr>
+              <tr>
+                <td>CPU Intel™ Core i5</td>
+                <td>5000000</td>
+                <td>4.5/5</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="action-buttons">
+            <button class="btn-primary">Đặt mua chỗ</button>
+            <button class="btn-secondary">Sắp xếp theo giá</button>
+          </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-section">
+          <h2 class="section-title">Biểu mẫu liên hệ</h2>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Họ tên:</label>
+              <input type="text" id="name" name="name" class="form-input" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" class="form-input" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tin nhắn:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                class="form-textarea"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Gửi</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
